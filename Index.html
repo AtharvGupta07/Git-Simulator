@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+    <h1 id="mainHeading">Git Simulator</h1>
+    <main class="main"> 
+
+        <div class="section" id="add">
+            <h2 class="heading">Working Directory</h2>
+            <div class="functions">
+                <input type="text" placeholder="e.g., filename.txt" class="input" id="workingInput">
+                <button class="button" id="addBtn">Add</button>  
+            </div>
+
+            <div class="dynamicDiv" id="workingDoc">
+
+                <!-- <div class="Sample_workingDoc">  //maindiv
+                    <div class="filename">filename</div>  //filediv
+                    <div class="workingBtn">               //btndiv
+                        <button>x</button>
+                        <button>→</button>
+                    </div>
+                </div> -->
+                
+            </div>
+                
+                
+        </div>
+
+        <div class="section" id="stage">
+            <h2 class="heading">Staging Area</h2>
+            <div class="functions">
+                <input type="text" placeholder="Write a Message"  class="input" id="finalMsg">
+                <button class="button" id="commitBtn">Commit</button>  
+            </div>
+
+            <div class="workingDoc" id="stagingDiv">
+                <!-- <div class="Sample_workingDoc" id="Sample_stagingDiv">                 //maindiv
+                    <div class="filename">filename</div>    //filename
+                    <button class="stagingBtn"> - </button> //btn
+                </div> -->
+            </div>
+            
+            
+        </div>
+
+        <div class="section" id="commit">
+            <h2 class="heading">Commits(History)</h2>
+            <div class="final">
+                <!-- <div class = "storage">
+                    <h3 class="fileName">This the message</h3>
+                    <div class="fileTag">
+                        <button>File 1</button>
+                        <button>File 2</button>
+                        <button>file 3</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+    </main>
+    <script src="Script.js"></script>
+</body>
+</html> 
