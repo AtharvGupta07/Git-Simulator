@@ -1,0 +1,141 @@
+# React Git Simulator Roadmap
+
+## Goal
+
+Rebuild my Vanilla JS Git Simulator using React to gain a strong understanding of React fundamentals.
+
+---
+
+## Mentor Rules
+
+* I write the code.
+* ChatGPT guides me instead of solving everything.
+* Understand **why** before **how**.
+* Think before asking for the answer.
+* Learn React concepts naturally while building the project.
+* Get code reviews and best practices after every milestone.
+
+---
+
+## React Mindset
+
+❌ Vanilla JS
+
+Find element → Change DOM
+
+✅ React
+
+Change State → React updates the DOM
+
+Always think in terms of **state**, not DOM manipulation.
+
+---
+
+## Things I Want to Learn
+
+* JSX
+* Functional Components
+* Props
+* useState
+* Event Handling
+* Conditional Rendering
+* Rendering Lists (map)
+* Keys
+* Lifting State Up
+* Component Communication
+* Immutable State Updates
+* Reusable Components
+* Proper Folder Structure
+* Later:
+
+  * useReducer
+  * Context API (if needed)
+
+---
+
+## Folder Structure
+
+src/
+│
+├── components/
+│   ├── WorkingDirectory.jsx
+│   ├── StagingArea.jsx
+│   ├── CommitHistory.jsx
+│   ├── FileCard.jsx
+│   └── CommitCard.jsx
+│
+├── App.jsx
+├── App.css
+└── main.jsx
+
+---
+
+# Development Plan
+
+## Phase 1 — Layout
+
+* Create components
+* Arrange the layout
+* Use dummy data
+* Pass data using props
+
+(No state yet.)
+
+---
+
+## Phase 2 — State
+
+* Learn useState
+* Add new files
+* Render dynamically
+
+---
+
+## Phase 3 — File Operations
+
+* Move files to staging
+* Delete files
+* Understand immutable state updates
+
+---
+
+## Phase 4 — Commit System
+
+* Commit staged files
+* Add commit message
+* Save timestamp
+* Render commit history
+
+---
+
+## Phase 5 — Refactoring
+
+* Improve folder structure
+* Make reusable components
+* Optimize state management
+* Learn better React practices
+
+---
+
+## React Thinking Process
+
+Whenever adding a feature, ask:
+
+1. What is the data?
+2. Where should this state live?
+3. Which component owns it?
+4. Which components need to read it?
+5. Which components need to modify it?
+6. Should I pass props or lift the state up?
+
+Never start by thinking about the UI.
+
+Start by thinking about the data.
+
+---
+
+## Project Goal
+
+By the end of this project, I should be comfortable enough with React to build medium-sized projects without following tutorials.
+
+The focus is not just to finish the project, but to understand the reasoning behind every React decision.
