@@ -2,8 +2,9 @@ import React from 'react'
 
 function WorkingDirectory() {
   return (
-    <div>
-      
+    <div className='subContainer'>
+      <h2>Working Directory</h2>
+
     </div>
   )
 }
