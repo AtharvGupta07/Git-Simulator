@@ -11,15 +11,87 @@ body{
     align-items: center;
 }
 .container{
-    flex: 2;
+    flex: 1;
     display: flex;
     gap: 10px;
     padding: 50px;
     border: 1px solid black;
-    margin: auto;
-    padding: auto;
+    /* margin: auto;
+    padding: auto; */
 }
 
 .subContainer{
     border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 500px;
+    width: 250px;
+}
+
+.workingDirectoryFunctions{
+    display: flex;
+    gap: 5px;
+    /* justify-content: space-between; */
+}
+
+.workingDirectoryFunctions input{
+    padding: 4px;
+}
+.workingDirectoryFunctions button{
+    padding: 4px;
+}
+
+.fileCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.filecard-btn{
+    display: flex;
+    gap: 3px;
+}
+.filecard-btn button{
+    padding: 3px;
+}
+
+.stageCard{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.stageCard button{
+    padding: 4px 5px;
+}
+.stagingAreaFunctions{
+    display: flex;
+    gap: 3px;
+}
+.stagingAreaFunctions input{
+    padding: 4px;
+}
+.stagingAreaFunctions button{
+    padding: 4px;
+}
+
+.commitCard{
+    border: 1px solid black;
+}
+.commitedFiles{
+    display: flex;
+    justify-content: space-around;
+    max-width: 200px;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.commitedFiles button{
+    padding: 2px;
 }
