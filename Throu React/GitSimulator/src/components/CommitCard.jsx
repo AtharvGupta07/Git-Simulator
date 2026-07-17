@@ -1,18 +1,19 @@
 import React from 'react'
 
-function CommitCard() {
+function CommitCard({commitedFiles, setcommitedFiles, messageDiv, setmessageDiv}) {
   return (
-    <div className='commitCard'>
-      <span>Message</span>
-      <div className='commitedFiles'>
-        <button>File 1</button>
-        <button>File 2</button>
-        <button>File 3</button>
-        <button>File 4</button>
-        
-        
-      </div>
-    </div>
+    <>
+      {messageDiv.map((message, i) => (
+          <div className='commitCard' key={i}>
+            <span>{message}</span>
+            <div className='commitedFiles'>
+              {commitedFiles[i]?.map((file, j) => (
+                <button key={j}>{file}</button>
+              ))}
+            </div>
+          </div>
+        ))}
+    </>
   )
 }
 
